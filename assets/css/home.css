@@ -1,0 +1,101 @@
+body {
+	font-family: "Cantata";
+	padding: 20px;
+	background: #a7bcc9;
+	margin-top: 10px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#container {
+    width: 1200px;
+		height: 100%;
+    margin: 0px auto;
+    background: white;
+    border-radius: 40px;
+    position: relative;
+    padding: 10px 0ppox;
+	}
+
+.heading-container{
+		height: 60px;
+    padding: 15px;
+    /* background: rgba(120, 194, 114, 0.1); */
+    border-radius: 2px;
+}
+
+.pagetitle {
+	font-size: 45px;
+	font-weight: 800;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navbar {
+display: flex;
+align-items: flex-start;
+justify-content: center;
+font-family: "Cantata";
+}
+
+.navbar-item{
+	opacity: 1;
+	font-size: 16px;
+	color: black;
+	margin: 20px;
+	font-family: "Cantata";
+}
+.navbar-item:hover{
+  color: #4b77c8;
+}
+
+.body{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin-top: 90px;
+}
+
+#profile{
+	transform: rotate(90deg);
+	/* margin-top: 20px; */
+	width: 400px;
+	height: auto;
+  border-radius: 50%;
+  overflow: hidden;
+	box-shadow: 0px 10px 10px #edeae5;
+	animation: opacity 3s;
+}
+
+#profile:hover{
+	box-shadow: 0px 20px 20px #edeae5;
+	width: 425px;
+	height: auto;
+}
+
+#body-text{
+	font-family: "Avenir";
+	width: 400px;
+	font-size: 25px;
+	font-weight: 700;
+	color: black;
+	opacity: 0;
+	animation-delay: 1s;
+	animation: opacity 2s forwards;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+
+  to {
+	  opacity: 1;
+  }
+}
